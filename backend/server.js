@@ -11,6 +11,7 @@ const app = express();
 
 // Middlewares
 app.use(express.json());
+console.log(process.env.MONGO_URI)
 app.use(cors());
 
 // Routes
